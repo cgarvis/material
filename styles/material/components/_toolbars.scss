@@ -1,0 +1,34 @@
+.toolbar {
+    min-height: 64px;
+
+    ul.actions {
+        display: inline;
+        float: right;
+        list-style: none;
+        padding-left: 0; // Override default ul/ol
+        margin: 0;
+        @include clearfix;
+
+
+        li {
+            display: inline;
+        }
+
+        .icon {
+            display: inline-block;
+            font-size: 1.5em;
+            margin: 20px 24px;
+        }
+    }
+}
+
+nav.toolbar {
+    @include depth(1);
+    margin-bottom: 10px;
+
+    .nav-icon {
+        display: inline-block;
+        font-size: 1.5em;
+        margin: 20px 24px;
+    }
+}

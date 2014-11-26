@@ -1,0 +1,53 @@
+$button-height: 36px;
+
+.btn {
+    display: inline-block;
+    height: $button-height;
+    margin-bottom: 15px;
+    padding: 0 0.5rem;
+    border-radius: 2px;
+    line-height: 36px;
+    text-transform: uppercase;
+    border:none;
+    background: #fff;
+
+    &:focus,
+    &.focus {
+        outline: 0;
+        background-image: none;
+    }
+
+    &:active,
+    &.active {
+        outline: 0;
+        background-image: none;
+    }
+
+    &:disabled,
+    &.disabled {
+        background-color: #DFDFDF;
+        box-shadow: none;
+        color: #9F9F9F;
+    }
+}
+
+.btn.btn-floating {
+    @include depth(1);
+
+    border-radius: 50%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    width: 40px;
+}
+
+.btn.btn-raised, .btn.btn-flat {
+    min-width: 88px;
+}
+
+.btn.btn-raised {
+    @include depth(1);
+}
+
+.btn.btn-flat {
+}

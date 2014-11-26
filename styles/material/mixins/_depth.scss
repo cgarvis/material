@@ -1,0 +1,9 @@
+@mixin box-shadow($args1, $args2) {
+    -webkit-box-shadow: $args1, $args2;
+    -moz-box-shadow: $args1, $args2;
+    box-shadow: $args1, $args2;
+}
+
+@mixin depth($level) {
+    @include box-shadow(0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12));
+}
