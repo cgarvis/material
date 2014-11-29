@@ -6,7 +6,7 @@
     "Christopher Garvis <cgarvis@gmail.com>"
   ],
   "description": "Styles for Material UI Components",
-  "main": "styles/material.scss",
+  "main": "dist/material.css",
   "keywords": [
     "material",
     "css",
