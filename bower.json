@@ -1,11 +1,12 @@
 {
-  "name": "y",
+  "name": "Material",
   "version": "0.0.1",
   "homepage": "https://github.com/cgarvis/material",
   "authors": [
     "Christopher Garvis <cgarvis@gmail.com>"
   ],
   "description": "Styles for Material UI Components",
+  "main": "styles/material.scss",
   "keywords": [
     "material",
     "css",
