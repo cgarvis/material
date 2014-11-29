@@ -2,10 +2,10 @@ SASSC = sass
 
 # Build stylesheets
 STYLESRC = styles/material.scss
-STYLEOUT = css/material.css
+STYLEOUT = dist/material.css
 
 $STYLEOUT:
-	-mkdir -p css
+	-mkdir -p dist
 
 .PHONY: styles
 styles:
@@ -17,7 +17,7 @@ watch:
 
 .PHONY: clean
 clean:
-	-rm -rf css
+	-rm -rf dist
 
 .PHONY: all
 all: styles
